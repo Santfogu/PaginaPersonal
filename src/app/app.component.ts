@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'base-project';
+  title = 'Pagina Personal';
+
+  actual = 'InfoPersonal';
+
+  cambiarActual(actual: string): void {
+    this.actual = actual;
+  }
 }

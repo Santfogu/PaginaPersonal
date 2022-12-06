@@ -1,0 +1,43 @@
+img:not(#ImP) {
+  height: 135px;
+  width: auto;
+  object-fit: cover;
+}
+
+body{
+  background-color: transparent;
+}
+
+hr {
+  clear: both;
+  visibility: hidden;
+}
+
+#tarjeta{
+  border: solid 2px #5b836d;
+  border-collapse: collapse;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: #c7c4ac;
+}
+
+
+#ImP{
+  height: 20rem;
+  width: auto;
+  object-fit: cover;
+}
+
+
+#tarjetaP{
+  border-collapse: collapse;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: #3c5547;
+}
+
+p{
+  font-size:170%;
+  color:#ffffff;
+  text-align: center
+}
